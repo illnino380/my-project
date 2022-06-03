@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My project</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Test page</title>
 </head>
+
 <body>
-  <h1>My project</h1>
+  <header class="header">
+    <span class="logo">MA</span>
+
+    <nav class="nav">
+      <a href="index.html" class="nav__link">Home</a>
+      <a href="about.html" class="nav__link">About</a>
+      <a href="courses.html" class="nav__link">Courses</a>
+      <a href="contacts.html" class="nav__link">Contacts</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="title">Mate Academy</h1>
+
+      <section>
+        <h2 class="section__title">Наши преимущества</h2>
+        <ul>
+          <li>100% онлайн</li>
+          <li>20% теории, 80% практики</li>
+          <li>Трудоустроили более 700 выпускников</li>
+          <li>Бесплатный английский</li>
+        </ul>
+      
+        <h2 class="section__title">Форматы обучения</h2>
+        <article>
+          <h3>"Вечернее обучение"</h3>
+          <p>14 дней бесплатно, далее помесячная оплата</p>
+          <ul>
+            <li>Свободный график обучения</li>
+            <li>Помесячная или полная оплата</li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2 class="section__title">Наши курсы</h2>
+  
+        <div class="courses">
+          <article class="course">
+            <h3>HTML и CSS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio corporis voluptate rem error minima eius tenetur laborum eveniet, ex blanditiis.</p>
+          </article>
+    
+          <article class="course">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio corporis voluptate rem error minima eius tenetur laborum eveniet, ex blanditiis.</p>
+          </article>
+    
+          <article class="course">
+            <h3>React</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio corporis voluptate rem error minima eius tenetur laborum eveniet, ex blanditiis. Optio corporis voluptate rem error minima eius tenetur laborum eveniet, ex blanditiis.</p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    &#169; Copyright 2020, Mate Academy
+  </footer>
 </body>
 </html>
