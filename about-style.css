@@ -1,0 +1,21 @@
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.box {
+  background-color: #f80;
+  /* height: 50px; */
+  /* width: 100px; */
+  /* line-height: 40px; */
+  /* padding: 20px; */
+  /* margin: 20px; */
+
+}

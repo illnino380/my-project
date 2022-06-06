@@ -1,0 +1,30 @@
+.box {
+  position: relative;
+  margin-top: 50px;
+  border: 5px dashed #00f;
+  /* border-top-width: 0; */
+  width: 300px;
+}
+
+.stripe {
+  box-sizing: border-box;
+  width: 200px;
+  height: 70px;
+}
+
+.purple {
+  /* margin-top: 20px; */
+  background-color: purple;
+}
+
+.red {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
